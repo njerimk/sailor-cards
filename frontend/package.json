@@ -1,14 +1,14 @@
 {
-  "name": "cool-pups",
+  "name": "sailor-cards",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
     "react": "^17.0.1",
+    "react-card-flip": "^1.0.11",
     "react-dom": "^17.0.1",
-    "react-scripts": "4.0.1"
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "rfdc": "^1.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -33,5 +33,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/preset-env": "7.12.11",
+    "@babel/preset-react": "7.12.10",
+    "babel-jest": "26.6.3",
+    "react-test-renderer": "17.0.1"
   }
 }
